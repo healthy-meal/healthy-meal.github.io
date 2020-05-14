@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(data/contact_us/2x/Asset%20405@2x.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: 'font_hm';
+    src: url(fonts/HouschkaMedium.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'font_b';
+    src: url(fonts/Benguiab.ttf) format("truetype");
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    width: 300px;
+}
+
+.main {
+    position: relative;
+    margin-left: 10%;
+    margin-top: 3%;
+    height: 700px;
+    width: 89%;
+/* background-color: bisque; */
+}
+
+.main div {
+    position: absolute;
+    
+}
+
+.icon {
+/*    background-color: #aaaaaa;*/
+    width: 25%;
+    height: 100px;
+    left: -34px;
+}
+
+.nav {
+    /* background-color: #293874; */
+    width: 72%;
+    height: 30px;
+    right: 0;
+    top: 53px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #333; */
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+    font-family: font_hm;
+    font-weight: 100;
+    font-size: 18px;
+  display: block;
+  color: #587B7F;
+  text-align: center;
+    margin-top: 15px;
+    margin-right: 30px;
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-bottom: 3px;
+  text-decoration: none;
+}
+
+.nav li a:hover:not(.active) {
+    border-bottom-style: solid;
+    border-color: #CFEE9E;
+}
+
+.nav .active {
+    color: #6CC164;
+    border-bottom-style: solid;
+    border-color: #CFEE9E;
+}
+
+.sign {
+    margin-top: 14px;
+    /* background-color: #293874; */
+    width: 13%;
+    height: 30px;
+    right: 0;
+    top: 53px;
+}
+
+.sign li {
+  float: left;
+}
+
+.sign li a {
+    font-family: font_hm;
+    font-size: 18px;
+  display: block;
+  color: #6CC164;
+  text-align: center;
+    padding-right: 18px;
+  text-decoration: none;
+}
+
+.box{
+    position: absolute;
+    top: 32%;
+    left: 32%;
+    width: 620px;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: acumin-pro,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.box h2{
+    margin: 0 0 30px;
+    padding: 0px;
+    color: black;
+    font-family: font_b;
+    font-size: 50px;
+}
+
+.box .inputBox{
+    position: relative;
+}
+
+.box .inputBox input{
+    width: 88%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #A9A09F;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: acumin-pro,sans-serif;
+    margin-bottom: 36.5px;
+     background-color: #E8E7E9; 
+    height: 28px;
+    padding-left: 45px;
+    border-radius: 25px;
+}
+
+.box .inputBox label{
+    position: absolute;
+    left: 60px;
+    top: 0;
+    padding: 15px 0;
+    letter-spacing: 1px;
+    font-size: 17px;
+    color: #587B7F;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.box .inputBox:nth-child(1), .box .inputBox:nth-child(3) {
+    float: right;
+    width: 45%;
+}
+.box .inputBox:nth-child(2), .box .inputBox:nth-child(4){
+    width: 45%;
+    left: 10px;
+}
+
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label{
+    top: 7px;
+    color: #E8E7E9;
+    z-index: -1;
+    font-size: 12px;
+}
+
+ .box .inputBox input:focus {
+    box-shadow: 0 0 7px #aaa;
+     transition: .5s;
+}
+
+textarea {
+    position: relative;
+  width: 555px;
+  height: 218px;
+  padding: 50px 70px;
+    top: -5px;
+  box-sizing: border-box;
+    background-color: #E8E7E9;
+  font-size: 16px;
+  resize: none;
+    font-family: font_hm;
+    letter-spacing: 1px;
+    color: #587B7F;
+    border-radius: 45px;
+    box-shadow: 0 0 7px #aaa inset;
+    outline: none;
+}
+
+textarea:focus {
+    box-shadow: 0 0 10px #888;
+    transition: .5s;
+}
+
+.box input[type="submit"]{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-image: linear-gradient(to right,#69BF64 ,#29AD78);
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    width: 120px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    border-radius: 20px;
+    font-family: acumin-pro,sans-serif;
+    font-weight: 700;
+    position: absolute;
+    right: -120px;
+    bottom: 130px;
+}
+
+.footer {
+    /* background-color: #287499; */
+    height: 50px;
+    width: 160px;
+    bottom: 0;
+    right: 0;
+}
+
+.footer img {
+    width: 20px;
+    margin-right: 25px;
+}

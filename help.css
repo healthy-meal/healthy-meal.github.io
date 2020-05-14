@@ -1,0 +1,110 @@
+*
+{
+    outline: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #E8E7E9;
+}
+
+@font-face {
+    font-family: 'font_hm';
+    src: url(fonts/HouschkaMedium.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'font_hb';
+    src: url(fonts/HouschkaBold_Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'font_b';
+    src: url(fonts/Benguiab.ttf) format("truetype");
+}
+
+a {
+    text-decoration: none;
+}
+
+.left_img {
+    height: 755px;
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    z-index: -10;
+}
+
+.icon {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    width: 140px;
+}
+
+.ver_nav {
+    /* background-color: burlywood; */
+    height: 400px;
+    width: 140px;;
+    position: absolute;
+    left: 22px;
+    top: 23%;
+}
+
+.ver_nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.ver_nav li a {
+  display: block;
+  color: #616673;
+  padding-left: 50%;
+    font-size: 21px;
+    font-family: font_hm;
+    height: 40px;
+    padding-top: 15px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.ver_nav li a.active { 
+  color: white;
+}
+
+.ver_nav li a:hover {
+    box-shadow: 0 0 13px black inset;
+     transition: .4s;
+}
+
+.nav_icon {
+    position: absolute;
+}
+
+.container {
+    /* background-color: blue; */
+    height: 699px;
+    width: 82%;
+    position: relative;
+    left: 18%;
+    top: 55px;
+}
+
+
+.footer {
+    position: absolute;
+    /* background-color: #287499; */
+    height: 22px;
+    width: 130px;
+    bottom: 50px;
+    left: 45px;
+}
+
+.footer img {
+    width: 20px;
+    margin-right: 17px;
+}
